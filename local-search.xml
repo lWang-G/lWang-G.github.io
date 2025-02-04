@@ -24,6 +24,18 @@
     <content type="html"><![CDATA[<h2 id="进行测试"><a href="#进行测试" class="headerlink" title="进行测试"></a>进行测试</h2><h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><p>$E&#x3D;mc^2$</p><p>$$\int_0^1 x \ \mathrm{d} x$$</p><p>$$a&#x3D;bc \tag{1} \label{1}$$</p><p>引用也是可以的，且是超链接\eqref{1}.还是很不错的</p><p>哈哈哈</p>]]></content>
     
     
+    <categories>
+      
+      <category>ss</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>1</tag>
+      
+    </tags>
     
   </entry>
   
