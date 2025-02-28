@@ -1,0 +1,73 @@
+/* 初始化统一计数器（命名为 theorem） */
+.post-body {
+  counter-reset: theorem;
+}
+
+/* 公共样式 */
+.definition, .theorem, .lemma, .corollary {
+  margin: 1em 0;
+  padding: 10px 15px 5px 70px; /* 左padding留出标题空间 */
+  border-left: 2.5px solid;
+  border-right: 2.5px solid;
+  border-radius: 20px;
+  counter-increment: theorem;
+  position: relative; /* 为标题定位准备 */
+  overflow: visible;
+}
+
+/* 标题部分 */
+.definition::before, 
+.theorem::before, 
+.lemma::before, 
+.corollary::before {
+  font-weight: bold;
+  position: absolute;
+  left: 15px;        /* 与容器左边缘间距 */
+  top: 10px;         /* 垂直居中 */
+  line-height: 1.4;
+  white-space: nowrap; /* 禁止标题换行 */
+}
+
+/* 定义 */
+.definition {
+  background: #f8f9fa;
+  border-color: #0073aa;
+}
+
+.definition::before {
+  content: "定义 " counter(theorem) "：";
+  color: #0073aa;
+}
+
+/* 定理 */
+.theorem {
+  background: #fff3e0;
+  border-color: #ff9800;
+}
+
+.theorem::before {
+  content: "定理 " counter(theorem) "：";
+  color: #ff9800;
+}
+
+/* 引理 */
+.lemma {
+  background: #e8f5e9;
+  border-color: #4caf50;
+}
+
+.lemma::before {
+  content: "引理 " counter(theorem) "：";
+  color: #4caf50;
+}
+
+/* 推论 */
+.corollary {
+  background: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.corollary::before {
+  content: "推论 " counter(theorem) "：";
+  color: #2196f3;
+}
