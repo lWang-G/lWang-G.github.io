@@ -4,11 +4,30 @@
   
   
   <entry>
+    <title>预备知识</title>
+    <link href="/2025/02/28/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
+    <url>/2025/02/28/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</url>
+    
+    <content type="html"><![CDATA[<p>计划研一下学期，仔细研读《广义函数与函数空间导论》，预期达到：对常用的经典的函数空间的基本性质有较为系统和深入的了解，较为熟练的掌握广义函数的基本性质。</p><h1 id="预备知识">预备知识</h1><h2 id="lebesgue-lp-空间">Lebesgue <spanclass="math inline">\(L^p\)</span> 空间</h2><h2 id="卷积与young不等式">卷积与Young不等式</h2><h2 id="分布函数-d_falpha-与弱-lp-空间">分布函数 <spanclass="math inline">\(d_f(\alpha)\)</span> 与弱 <spanclass="math inline">\(L^p\)</span> 空间</h2><div class="definition"><p>(分布函数<span class="math inline">\(d_f(\alpha)\)</span>) 设<spanclass="math inline">\(f\)</span>是测度空间<spanclass="math inline">\((X,\mu)\)</span>上的可测函数，其分布函数<spanclass="math inline">\(d_f(\alpha)\)</span>定义于<spanclass="math inline">\([0,\infty)\)</span>上，满足 <spanclass="math inline">\(d_f(\alpha):=\mu(\{x\in X \mid|f(x)|&gt;\alpha\})\)</span>.</p></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>广义函数与函数空间导论</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Borel集</title>
     <link href="/2025/02/14/Borel%E9%9B%86/"/>
     <url>/2025/02/14/Borel%E9%9B%86/</url>
     
-    <content type="html"><![CDATA[<h1 id="borel集">Borel集</h1><p>开集与闭集是<spanclass="math inline">\(\mathbb{R}^n\)</span>中最基本的集合类型。当然，在<spanclass="math inline">\(\mathbb{R}^n\)</span>中还有更多的点集并不是开集或者闭集。想要构造其他类型的点集，很自然地想到对开集或闭集进行基本的点集运算<spanclass="math inline">\(\cap,\cup\)</span>,补。这里我们需要关注的是对于点集运算作用的次数：有限次（有限<spanclass="math inline">\(\cap\)</span>,有限<spanclass="math inline">\(\cup\)</span>），可数次（可数<spanclass="math inline">\(\cap\)</span>,可数<spanclass="math inline">\(\cup\)</span>），任意次（任意<spanclass="math inline">\(\cap\)</span>,任意<spanclass="math inline">\(\cup\)</span>).</p><div class="definition"><p>若<span class="math inline">\(E\subset\mathbb{R}^n\)</span>是可数个闭集的并集，则称<spanclass="math inline">\(E\)</span>为<spanclass="math inline">\(F_{\sigma}\)</span>集；若<spanclass="math inline">\(E\subset\mathbb{R}^n\)</span>是可数个开集的交集，则称<spanclass="math inline">\(E\)</span>为<spanclass="math inline">\(G_{\delta}\)</span>集。</p></div><div class="theorem"><p>勾股定理：直角三角形斜边的平方等于两直角边的平方和。</p></div><div class="definition"><p>yo ss</p></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="borel集">Borel集</h1><p>开集与闭集是<spanclass="math inline">\(\mathbb{R}^n\)</span>中最基本的集合类型。当然，在<spanclass="math inline">\(\mathbb{R}^n\)</span>中还有更多的点集并不是开集或者闭集。想要构造其他类型的点集，很自然地想到对开集或闭集进行基本的点集运算<spanclass="math inline">\(\cap,\cup\)</span>,补。这里我们需要关注的是对于点集运算作用的次数：有限次（有限<spanclass="math inline">\(\cap\)</span>,有限<spanclass="math inline">\(\cup\)</span>），可数次（可数<spanclass="math inline">\(\cap\)</span>,可数<spanclass="math inline">\(\cup\)</span>），任意次（任意<spanclass="math inline">\(\cap\)</span>,任意<spanclass="math inline">\(\cup\)</span>)。</p><div class="definition"><p>若<span class="math inline">\(E\subset\mathbb{R}^n\)</span>是可数个闭集的并集，则称<spanclass="math inline">\(E\)</span>为<spanclass="math inline">\(F_{\sigma}\)</span>集; 若<spanclass="math inline">\(E\subset\mathbb{R}^n\)</span>是可数个开集的交集，则称<spanclass="math inline">\(E\)</span>为<spanclass="math inline">\(G_{\delta}\)</span>集。</p></div><ul><li><span class="math inline">\(F_{\sigma}\)</span>集的补集是<spanclass="math inline">\(G_{\delta}\)</span>集，<spanclass="math inline">\(G_{\delta}\)</span>集的补集是<spanclass="math inline">\(F_{\sigma}\)</span>集。</li></ul><p><strong>例：</strong>记<spanclass="math inline">\(\mathbb{R}^n\)</span>中全体有理点为<spanclass="math inline">\(\{r_k\},\)</span>则有理点集<spanclass="math inline">\(\bigcup_{k=1}^{\infty} \{r_k\}\)</span>为<spanclass="math inline">\(F_\sigma\)</span>集。</p><p><strong>例（函数连续点的结构）：</strong>若<spanclass="math inline">\(f(x)\)</span>是定义在开集<spanclass="math inline">\(G\subset\mathbb{R}^n\)</span>上的实值函数，则<spanclass="math inline">\(f(x)\)</span>的连续点集是<spanclass="math inline">\(G_\delta\)</span>型。</p><div class="theorem"><p>勾股定理：直角三角形斜边的平方等于两直角边的平方和。</p></div><div class="definition"><p>yo ss</p></div>]]></content>
     
     
     <categories>

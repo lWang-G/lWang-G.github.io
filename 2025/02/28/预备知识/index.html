@@ -19,22 +19,21 @@
   <meta name="author" content="lWang G">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Borel集 开集与闭集是\(\mathbb{R}^n\)中最基本的集合类型。当然，在\(\mathbb{R}^n\)中还有更多的点集并不是开集或者闭集。想要构造其他类型的点集，很自然地想到对开集或闭集进行基本的点集运算\(\cap,\cup\),补。这里我们需要关注的是对于点集运算作用的次数：有限次（有限\(\cap\),有限\(\cup\)），可数次（可数\(\cap\),可数\(\cup\)">
+    <meta name="description" content="计划研一下学期，仔细研读《广义函数与函数空间导论》，预期达到：对常用的经典的函数空间的基本性质有较为系统和深入的了解，较为熟练的掌握广义函数的基本性质。 预备知识 Lebesgue \(L^p\) 空间 卷积与Young不等式 分布函数 \(d_f(\alpha)\) 与弱 \(L^p\) 空间  (分布函数\(d_f(\alpha)\)) 设\(f\)是测度空间\((X,\mu)\)上的可测函数">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Borel集">
-<meta property="og:url" content="http://example.com/2025/02/14/Borel%E9%9B%86/index.html">
+<meta property="og:title" content="预备知识">
+<meta property="og:url" content="http://example.com/2025/02/28/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Borel集 开集与闭集是\(\mathbb{R}^n\)中最基本的集合类型。当然，在\(\mathbb{R}^n\)中还有更多的点集并不是开集或者闭集。想要构造其他类型的点集，很自然地想到对开集或闭集进行基本的点集运算\(\cap,\cup\),补。这里我们需要关注的是对于点集运算作用的次数：有限次（有限\(\cap\),有限\(\cup\)），可数次（可数\(\cap\),可数\(\cup\)">
+<meta property="og:description" content="计划研一下学期，仔细研读《广义函数与函数空间导论》，预期达到：对常用的经典的函数空间的基本性质有较为系统和深入的了解，较为熟练的掌握广义函数的基本性质。 预备知识 Lebesgue \(L^p\) 空间 卷积与Young不等式 分布函数 \(d_f(\alpha)\) 与弱 \(L^p\) 空间  (分布函数\(d_f(\alpha)\)) 设\(f\)是测度空间\((X,\mu)\)上的可测函数">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-02-13T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-02-28T12:00:27.563Z">
+<meta property="article:published_time" content="2025-02-28T12:01:46.000Z">
+<meta property="article:modified_time" content="2025-03-02T05:33:16.397Z">
 <meta property="article:author" content="lWang G">
-<meta property="article:tag" content="Borel集">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Borel集 - Hexo</title>
+  <title>预备知识 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +203,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Borel集"></span>
+            <span id="subtitle" data-typed-text="预备知识"></span>
           
         </div>
 
@@ -215,8 +214,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-02-14 00:00" pubdate>
-          2025年2月14日 凌晨
+        <time datetime="2025-02-28 20:01" pubdate>
+          2025年2月28日 晚上
         </time>
       </span>
     
@@ -227,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          283 字
+          143 字
         
       </span>
     
@@ -238,7 +237,7 @@
         
         
         
-          3 分钟
+          2 分钟
         
       </span>
     
@@ -275,54 +274,27 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Borel集</h1>
+            <h1 id="seo-header">预备知识</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="borel集">Borel集</h1>
-<p>开集与闭集是<span
-class="math inline">\(\mathbb{R}^n\)</span>中最基本的集合类型。当然，在<span
-class="math inline">\(\mathbb{R}^n\)</span>中还有更多的点集并不是开集或者闭集。想要构造其他类型的点集，很自然地想到对开集或闭集进行基本的点集运算<span
-class="math inline">\(\cap,\cup\)</span>,补。这里我们需要关注的是对于点集运算作用的次数：有限次（有限<span
-class="math inline">\(\cap\)</span>,有限<span
-class="math inline">\(\cup\)</span>），可数次（可数<span
-class="math inline">\(\cap\)</span>,可数<span
-class="math inline">\(\cup\)</span>），任意次（任意<span
-class="math inline">\(\cap\)</span>,任意<span
-class="math inline">\(\cup\)</span>)。</p>
+                <p>计划研一下学期，仔细研读《广义函数与函数空间导论》，预期达到：对常用的经典的函数空间的基本性质有较为系统和深入的了解，较为熟练的掌握广义函数的基本性质。</p>
+<h1 id="预备知识">预备知识</h1>
+<h2 id="lebesgue-lp-空间">Lebesgue <span
+class="math inline">\(L^p\)</span> 空间</h2>
+<h2 id="卷积与young不等式">卷积与Young不等式</h2>
+<h2 id="分布函数-d_falpha-与弱-lp-空间">分布函数 <span
+class="math inline">\(d_f(\alpha)\)</span> 与弱 <span
+class="math inline">\(L^p\)</span> 空间</h2>
 <div class="definition">
-<p>若<span class="math inline">\(E\subset
-\mathbb{R}^n\)</span>是可数个闭集的并集，则称<span
-class="math inline">\(E\)</span>为<span
-class="math inline">\(F_{\sigma}\)</span>集; 若<span
-class="math inline">\(E\subset
-\mathbb{R}^n\)</span>是可数个开集的交集，则称<span
-class="math inline">\(E\)</span>为<span
-class="math inline">\(G_{\delta}\)</span>集。</p>
-</div>
-<ul>
-<li><span class="math inline">\(F_{\sigma}\)</span>集的补集是<span
-class="math inline">\(G_{\delta}\)</span>集，<span
-class="math inline">\(G_{\delta}\)</span>集的补集是<span
-class="math inline">\(F_{\sigma}\)</span>集。</li>
-</ul>
-<p><strong>例：</strong>记<span
-class="math inline">\(\mathbb{R}^n\)</span>中全体有理点为<span
-class="math inline">\(\{r_k\},\)</span>则有理点集<span
-class="math inline">\(\bigcup_{k=1}^{\infty} \{r_k\}\)</span>为<span
-class="math inline">\(F_\sigma\)</span>集。</p>
-<p><strong>例（函数连续点的结构）：</strong>若<span
-class="math inline">\(f(x)\)</span>是定义在开集<span
-class="math inline">\(G\subset
-\mathbb{R}^n\)</span>上的实值函数，则<span
-class="math inline">\(f(x)\)</span>的连续点集是<span
-class="math inline">\(G_\delta\)</span>型。</p>
-<div class="theorem">
-<p>勾股定理：直角三角形斜边的平方等于两直角边的平方和。</p>
-</div>
-<div class="definition">
-<p>yo ss</p>
+<p>(分布函数<span class="math inline">\(d_f(\alpha)\)</span>) 设<span
+class="math inline">\(f\)</span>是测度空间<span
+class="math inline">\((X,\mu)\)</span>上的可测函数，其分布函数<span
+class="math inline">\(d_f(\alpha)\)</span>定义于<span
+class="math inline">\([0,\infty)\)</span>上，满足 <span
+class="math inline">\(d_f(\alpha):=\mu(\{x\in X \mid
+|f(x)|&gt;\alpha\})\)</span>.</p>
 </div>
 
                 
@@ -342,7 +314,7 @@ class="math inline">\(G_\delta\)</span>型。</p>
     
       <span class="category-chain">
         
-  <a href="/categories/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0/" class="category-chain-item">实变函数</a>
+  <a href="/categories/%E5%B9%BF%E4%B9%89%E5%87%BD%E6%95%B0%E4%B8%8E%E5%87%BD%E6%95%B0%E7%A9%BA%E9%97%B4%E5%AF%BC%E8%AE%BA/" class="category-chain-item">广义函数与函数空间导论</a>
   
   
 
@@ -354,13 +326,6 @@ class="math inline">\(G_\delta\)</span>型。</p>
     </div>
   
   
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/Borel%E9%9B%86/" class="print-no-link">#Borel集</a>
-      
-    </div>
-  
 </div>
 
 
@@ -369,8 +334,8 @@ class="math inline">\(G_\delta\)</span>型。</p>
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Borel集</div>
-      <div>http://example.com/2025/02/14/Borel集/</div>
+      <div>预备知识</div>
+      <div>http://example.com/2025/02/28/预备知识/</div>
     </div>
     <div class="license-meta">
       
@@ -382,7 +347,7 @@ class="math inline">\(G_\delta\)</span>型。</p>
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年2月14日</div>
+          <div>2025年2月28日</div>
         </div>
       
       
@@ -414,18 +379,12 @@ class="math inline">\(G_\delta\)</span>型。</p>
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/02/28/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/" title="预备知识">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">预备知识</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2025/01/29/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" title="我的第一篇博客">
-                        <span class="hidden-mobile">我的第一篇博客</span>
+                      <a href="/2025/02/14/Borel%E9%9B%86/" title="Borel集">
+                        <span class="hidden-mobile">Borel集</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

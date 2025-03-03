@@ -9,7 +9,7 @@
   padding: 10px 15px 5px 70px; /* 左padding留出标题空间 */
   border-left: 2.5px solid;
   border-right: 2.5px solid;
-  border-radius: 20px;
+  border-radius: 15px;
   counter-increment: theorem;
   position: relative; /* 为标题定位准备 */
   overflow: visible;
