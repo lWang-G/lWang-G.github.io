@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title>学习碎碎念</title>
+    <link href="/2025/03/04/%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/"/>
+    <url>/2025/03/04/%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</url>
+    
+    <content type="html"><![CDATA[<h2 id="2025-03-03">2025.03.03</h2><p>近期的数学学习，越来越不想动脑子和思考了，感觉看书跟过流水账一样，并没有进行深度的思考和演算。简直就是形式上的阅读。最让我感觉到焦虑不安的是：之前认认真真学习的一些知识像陈恕行《现代偏微分方程导论》中广义函数部分，我目前竟然连最最最基本的基本函数空间中的拓扑是如何定义的给忘记了，而且在PDE的学习中，大量的不等式也是掌握的稀里糊涂，推过的结论也模模糊糊，十分受挫。今晚跟冯同学探讨了一下我该如何克服这个困境，冯同学给出的建议是：<strong>多用这些知识和结论，才不会生疏</strong>。我仔细想了下确实我对于这些知识的运用少之又少，这给了我很大一个警醒：不能缺少习题的训练，来加强对理论知识的掌握。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>预备知识</title>
     <link href="/2025/02/28/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
     <url>/2025/02/28/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</url>
     
-    <content type="html"><![CDATA[<p>计划研一下学期，仔细研读《广义函数与函数空间导论》，预期达到：对常用的经典的函数空间的基本性质有较为系统和深入的了解，较为熟练的掌握广义函数的基本性质。</p><h1 id="预备知识">预备知识</h1><h2 id="lebesgue-lp-空间">Lebesgue <spanclass="math inline">\(L^p\)</span> 空间</h2><h2 id="卷积与young不等式">卷积与Young不等式</h2><h2 id="分布函数-d_falpha-与弱-lp-空间">分布函数 <spanclass="math inline">\(d_f(\alpha)\)</span> 与弱 <spanclass="math inline">\(L^p\)</span> 空间</h2><div class="definition"><p>(分布函数<span class="math inline">\(d_f(\alpha)\)</span>) 设<spanclass="math inline">\(f\)</span>是测度空间<spanclass="math inline">\((X,\mu)\)</span>上的可测函数，其分布函数<spanclass="math inline">\(d_f(\alpha)\)</span>定义于<spanclass="math inline">\([0,\infty)\)</span>上，满足 <spanclass="math inline">\(d_f(\alpha):=\mu(\{x\in X \mid|f(x)|&gt;\alpha\})\)</span>.</p></div>]]></content>
+    <content type="html"><![CDATA[<p>计划研一下学期，仔细研读《广义函数与函数空间导论》，预期达到：对常用的经典的函数空间的基本性质有较为系统和深入的了解，较为熟练的掌握广义函数的基本性质。</p><h1>预备知识</h1><h2 id="Lebesgue-L-p-空间">Lebesgue <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>L</mi><mi>p</mi></msup></mrow><annotation encoding="application/x-tex">L^p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal">L</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span></span></span></span></span></span></span></span> 空间</h2><h2 id="卷积与Young不等式">卷积与Young不等式</h2><h2 id="分布函数-d-f-alpha-与弱-L-p-空间">分布函数 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>d</mi><mi>f</mi></msub><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">d_f(\alpha)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0361em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">d</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mclose">)</span></span></span></span> 与弱 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>L</mi><mi>p</mi></msup></mrow><annotation encoding="application/x-tex">L^p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal">L</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span></span></span></span></span></span></span></span> 空间</h2><div class="definition">  (分布函数$d_f(\alpha)$)设$f$是测度空间$(X,\mu)$上的可测函数，其分布函数$d_f(\alpha)$定义于$[0,\infty)$上，满足  $d_f(\alpha):=\mu(\{x\in X \mid |f(x)|>\alpha\})$.</div>]]></content>
     
     
     <categories>
